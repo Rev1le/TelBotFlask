@@ -1,0 +1,23 @@
+
+{
+    "config" :
+    {
+        "webhookSettings":
+        {
+            "WEBHOOK_LISTEN" : "0.0.0.0",
+            "WEBHOOK_PORT" : 8443
+        },
+        
+        "API" : 
+        {
+            "API_TOKEN" : "bot5013260088:AAEeM57yLluiO62jFxef5v4LoG4tkLVvUMA",
+            "API_TELEGRAMM" : "https://api.telegram.org/bot5013260088:AAEeM57yLluiO62jFxef5v4LoG4tkLVvUMA"
+        },
+
+        "SSL" :
+        {
+            "WEBHOOK_SSL_CERT" : "/etc/letsencrypt/live/xn--i1ahcl5aza.xyz/fullchain.pem",
+            "WEBHOOK_SSL_PRIV" : "/etc/letsencrypt/live/xn--i1ahcl5aza.xyz/privkey.pem"
+        }
+    }
+}

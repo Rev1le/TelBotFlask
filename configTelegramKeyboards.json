@@ -1,0 +1,157 @@
+
+
+{"keyboards" :
+    {
+
+        "helpKeyboard" :
+        {
+            "inline_keyboard":
+            [
+                [
+                    {
+                        "text": "cloud", 
+                        "callback_data": "cloud"
+                    },
+                    {
+                        "text": "register", 
+                        "callback_data": "registerAccaunt"
+                    }
+                ],
+                [
+                    {
+                        "text": "расписание", 
+                        "callback_data": "raspisaniePE"
+                    },
+                    {
+                        "text": "about", 
+                        "callback_data": "about"
+                    }
+                ],
+                [
+                    {
+                        "text": "close", 
+                        "callback_data": "exit"
+                    }
+                ]
+            ]
+        },
+
+        "cloudKeyboard" : 
+        {
+            "inline_keyboard":
+            [
+                [
+                    {
+                        "text": "createCloud", 
+                        "callback_data": "createCloud"
+                    }, 
+                    {
+                        "text": "viewMyFile", 
+                        "callback_data": "viewMyFile"
+                    }
+                ],
+                [
+                    {
+                        "text": "close", 
+                        "callback_data": "exit"
+                    }
+                ]
+            ]
+        },
+
+        "viewMyFileKeyboards" :
+        {
+            "inline_keyboard":
+            [
+                [
+                    {
+                        "text": "ViewAllFile", 
+                        "callback_data": "viewMyFile_ALL"
+                    }, 
+                    {
+                        "text": "ViewListFile", 
+                        "callback_data": "viewMyFile_LIST"
+                    }
+                ],
+                [
+                    {
+                        "text": "close", 
+                        "callback_data": "exit"
+                    }
+                ]
+            ]
+
+        },
+
+        "raspisaniedaysKeyboards":
+        {
+            "inline_keyboard":
+            [
+                [
+                    {
+                        "text": "понедельник", 
+                        "callback_data": "viewRasp_Pone"
+                    }, 
+                    {
+                        "text": "вторник", 
+                        "callback_data": "viewRasp_Vtor"
+                    }
+                ],
+                [
+                    {
+                        "text": "среда", 
+                        "callback_data": "viewRasp_Sred"
+                    }, 
+                    {
+                        "text": "четверг", 
+                        "callback_data": "viewRasp_Chet"
+                    }
+                ],
+                [
+                    {
+                        "text": "пятница", 
+                        "callback_data": "viewRasp_Pytn"
+                    }, 
+                    {
+                        "text": "суббота", 
+                        "callback_data": "viewRasp_Sybot"
+                    }
+                ],
+                [
+                    {
+                        "text": "close", 
+                        "callback_data": "exit"
+                    }
+                ]
+            ]
+        },
+
+        "coockedKeyboard":{
+
+            "inline_keyboard":
+            [
+                [
+                    {
+                        "text": "Выпечка", 
+                        "callback_data": "выпечка"
+                    }, 
+                    {
+                        "text": "Основные блюда", 
+                        "callback_data": "основные_блюда"
+                    },
+                    {
+                        "text": "Супы", 
+                        "callback_data": "супы"
+                    }
+                ],
+                [
+                    {
+                        "text": "close", 
+                        "callback_data": "exit"
+                    }
+                ]
+            ]
+
+        }
+    }
+}
